@@ -1,0 +1,11 @@
+#quote {
+  display: flex;
+  justify-content: center;
+  color: rgb(197, 197, 197);
+  position: relative;
+  bottom: 25%;
+  width: 100%;
+}
+#quote span:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}

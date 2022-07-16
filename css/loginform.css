@@ -1,0 +1,51 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -35%;
+  left: 20px;
+}
+
+.login-form input {
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 25px;
+  width: 300px;
+  text-align: center;
+}
+
+.login-form button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.login-form input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+input:focus {
+  color: white;
+  outline: none;
+}
+
+.hidden {
+  display: none;
+}
+#greeting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -150px;
+  color: MistyRose;
+  font-size: 50px;
+}
